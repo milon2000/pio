@@ -1,0 +1,59 @@
+
+nav ul {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav li {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+nav {
+	margin: auto;	
+}
+
+.flex1 {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.logo {
+	-webkit-flex: 5 1 auto;
+	-ms-flex: 5 1 auto;
+    flex: 5 1 auto;
+}
+/*żeby wideo pasowało na mniejsze urządzenia trzeba w pliku @media ustawić mniejszą wielkość wideo)*/
+.show, .flexContainer {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.secondPart {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.software {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;	
+}
+
+
+.software img {
+	padding: 1em;	
+}
